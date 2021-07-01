@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/6accfabf67.js" crossorigin="anonymous"></script>
+
+    <script src="/portfolio.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Eczar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="head">
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#1">Home</a></li>
+                <li><a href="#2">About me</a></li>
+                <li><a href="#3">Expertise</a></li>
+                <li><a href="#4">Education</a></li>
+                <li><a href="#5">Projects</a></li>
+                <li><a href="#6">POR and ExtraCurriculum</a></li>
+                <li style="text-align:end;"><a href="#7">Contact</a></li>
+                <li><a href="#" target="_blank">Resume</a></li>
+            </ul>
+        </div>
+
+    </header>
+    <section class="Header" id="1">
+        <div class="Leftheaderbox">
+            <div class="IM">
+                <img src="data:image/jpeg;base64,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"
+                    alt="This is the picture of the person">
+            </div>
+        </div>
+        <div class="Rightheaderbox">
+            <div class="content">
+                <h1 style="text-shadow: none;" id="NAME">RIMA JANA</h1>
+                <div id="Year">Fourth Year Dual Degree Student, IIT KHARAGPUR</div>
+                <div id="Role">Competitive Programmer </div>
+                <div class="socials">
+                    <ul>
+                        <li><a href="https://www.facebook.com/rima.jana.7399/" target="_blank"><i
+                                    class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/rima-jana-5921a7191/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/rimajana" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://codeforces.com/profile/RJ17" target="_blank">Codeforces</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        </div>
+
+    </section>
+    <section class="Header" id="2"> 
+        <div class="Leftheaderbox">
+            <div class="Expertise">
+                <h1 style=" font-size: 40px;">About Me</h1>
+                <!-- <img id="am" src="https://png.pngitem.com/pimgs/s/221-2214785_ap-website-about-me-new-no-picture-circle.png" alt=""> -->
+            </div>
+        </div>
+        <div class="Rightheaderbox">
+            <div class="page2">
+            <div class="Background" id="bg">
+                <br><br>
+                <br>
+                <p>Hello, I am Rima Jana, Fourth year dual degree student from the department of Agricultural and
+                    food Engineering in IIT Kharagpur.
+                </p>
+                
+                <p> I was Born in Kolkata,Westbengal and bought up in Eluru,Andhra Pradesh.I completed my schooling upto
+                    12th in Eluru.Then i was selected in IIT Kharagpur.I am Fluent in 4
+                    languages(Telugu,English,Hindi,Bengali).</p>
+                
+            </div>
+
+            <div class="Experience"><h1 style=" font-size: 27px; text-align: center; text-shadow: none;">Experience</h1></div>
+            
+            <p>Worked as a <b>Python content developer</b> for 4 months in <a href="https://codemode.us/" target="_blank">Perfectise Edventure ltd</a> , an US based startup who are passionate about teaching coding to the younger generations.
+                </p>
+                <p>I worked under the supervision of Mr.Yashwanth singh, Founder and lead mentor of codemodeus.</p>
+                </div>
+
+        </div>
+
+
+        </div>
+
+    </section> 
+    
+    </section>
+
+    <section class="Header" id="3">
+        <div class="Leftheaderbox">
+            <div class="Expertise">
+                <h1 style=" font-size: 40px;">Expertise</h1>
+            </div>
+
+        </div>
+        <div class="Rightheaderbox">
+            <!-- <div class="Background">
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>Data Structures and Algorithms</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>Python</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>C++</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>Machine Learning</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>HTML</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>CSS</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>Java Script</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="o-grid__col-sm-6">
+                    <div class="o-content">
+                        <div class="o-media  o-media--block in-view">
+                            <div class="o-media__figure">
+                                <div class="c-number  t-primary-color">
+                                    80<small>%</small>
+                                </div>
+                            </div>
+                            <div class="o-media__body">
+                                <h3>SQL</h3>
+                            </div>
+                        </div>
+                        <div class="c-progress-bar  o-content__body  t-border-color-bg  u-mt-text">
+                            <div class="a-progress-bar  c-progress-bar__filler  t-primary-bg in-view" data-percent="80"
+                                style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="Background">
+                <ul class="Box">
+                    <li>Data Structure And Algorithms</li>
+                    <li>C++</li>
+                    <li>C</li>
+                    <li>Python</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>Machine Learning</li>
+                </ul>
+                <!-- <details class="Box">
+                    <summary>Data Structures and Algorithms</summary> 
+                    
+                
+                </details>
+                <details class="Box">
+                    <summary>C++</summary>
+                    
+                
+                </details>
+                <details class="Box">
+                    <summary>Python</summary>
+                
+                
+                </details>
+                <details class="Box">
+                    <summary>Machine Learning</summary>
+                
+                
+                </details>
+                <details class="Box">
+                    <summary>SQL</summary>
+                    
+                
+                </details>
+                <details class="Box">
+                    <summary>HTML</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt!></p>
+                
+                </details>
+                <details class="Box">
+                    <summary>CSS</summary>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt!></p>
+                
+                </details>
+                <details class="Box">
+                    <summary>JavaScript</summary>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, incidunt!></p>
+                </details> -->
+            </div>
+
+
+        </div>
+
+
+
+        </div>
+
+    </section>
+    <section class="Header" id="4">
+        <div class="Leftheaderbox">
+            <div class="Education">
+                <h1 style="font-size: 40px;">Education</h1>
+            </div>
+
+        </div>
+        <div class="Rightheaderbox">
+            <div class="Background">
+                <div class="College">
+                    <div class="o-grid__col-md-5">
+                        <div class="c-work__timeframe">
+                            2018 – Present
+                        </div>
+                        <h3 class="c-work__heading">
+                            IIT Kharagpur
+                        </h3>
+                        <h4 class="c-work__title">
+                            Agricultural and Food engineering
+                        </h4>
+                        <div class="c-work__location">
+                            Kharagpur,Westbengal
+                        </div>
+                    </div>
+                    <div class="percentage">
+                        <p>CGPA: 8.04/10.0</p>
+                    </div>
+                </div>
+                <div class="inter">
+                    <div class="o-grid__col-md-5">
+                        <div class="c-work__timeframe">
+                            2016 – 2018
+                        </div>
+                        <h3 class="c-work__heading">
+                            Srichaitanya Educational College
+                        </h3>
+                        <h4 class="c-work__title">
+                            Maths,Physics,Chemistry
+                        </h4>
+                        <div class="c-work__location">
+                            Eluru,Andhrapradesh
+                        </div>
+                    </div>
+                    <div class="percentage">
+                        <p>98.4%</p>
+                    </div>
+
+                </div>
+                <div class="ssc">
+                    <div class="o-grid__col-md-5">
+                        <div class="c-work__timeframe">
+                            2015– 2016
+                        </div>
+                        <h3 class="c-work__heading">
+                            Bhashyam Public School
+                        </h3>
+                        <h4 class="c-work__title">
+                            10th Class
+                        </h4>
+                        <div class="c-work__location">
+                            Eluru,Andhra Pradesh
+                        </div>
+                    </div>
+                    <div class="percentage">
+                        <p>CG: 9.5/10.0</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        </div>
+
+    </section>
+    <section class="Header" id="5">
+        <div class="Leftheaderbox">
+            <div class="Projects">
+                <h1 style="font-size: 40px;">Projects</h1>
+            </div>
+
+        </div>
+        <div class="Rightheaderbox">
+            <div class="Background">
+                <select id="drop" name="projects" onchange="show(this.value);">
+                    <!-- <option value="Impprojects">PROJECTS</option> -->
+                    <option value="web">Web development</option>
+                    <option value="ML">Machine learning</option>
+                </select>
+                <div id="webdev" >
+                    <ul>
+                        <li class="portfolio">
+                            <a href="#" target="_blank">
+                                <h3>Portfolio Website</h3>
+                            </a>
+                            <p>My Portfolio website  </p>
+
+                        </li>
+                        <!-- <br> -->
+                        <li class="Quizapp">
+                            <a href="#" target="_blank">
+                                <h3>Quiz App</h3>
+                            </a>
+                            <p>Small quiz app where you can attempt the quiz as many times as possible and also see Highscores.
+                            </p>
+
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="machinel" style= "display : none ;">
+                    <ul>
+                        <li class="cca">
+
+                            <h2>Credit card approval</h2>
+                            <p> This is a machine learning project
+                                <a href="#" target="_blank">View code</a>
+                            </p>
+                        </li>
+                        <li class="ms">
+                            <h2>Market </h2>
+                            <p>market seg
+                                <a href="#" target="_blank">view code</a>
+                            </p>
+
+                        </li>
+                    </ul>
+                </div>
+
+
+                <!-- <ul>
+                    <li class="portfolio">
+                        <a href="#" target="_blank">
+                            <h3>Portfolio Website</h3>
+                        </a>
+                        <p>I created this website From scratch using HTML,CSS and Javascript.</p>
+
+                    </li>
+                    <li class="Quizapp">
+                        <a href="#" target="_blank">
+                            <h3>Quiz App</h3>
+                        </a>
+                        <p>I created this website From scratch using HTML,CSS and Javascript.This helped me to improve
+                            my application skills and also linking various HTML files and css file and Js files.In this
+                            quiz app you can attempt the quiz as many times as you want and also view your Highscore
+                        </p>
+
+                    </li>
+                    <li class="cca">
+
+                        <h2>Credit card approval</h2>
+                        <p> This is a machine learning project
+                            <a href="#" target="_blank">View code</a>
+                        </p>
+                    </li>
+                    <li class="ms">
+                        <h2>Market </h2>
+                        <p>market seg
+                            <a href="#" target="_blank">view code</a>
+                        </p>
+
+                    </li>
+
+                </ul> -->
+            </div>
+
+
+        </div>
+
+    </section>
+    <section class="Header" id="6">
+        <div class="Leftheaderbox">
+            <div class="POR and ExtraCurriculum">
+                <h1 style="text-align: center; font-size: 40px;">Position of Responsibilities and Extra Curriculum</h1>
+            </div>
+
+        </div>
+        <div class="Rightheaderbox">
+            <div class="Background">
+                <ol class="por">
+                    <li>Inter Hall Bronze,IIT kharagpur in 100 m running Senior Category</li>
+                    <li>I was Sponsorship head in Agricultural and food engineering society,IIT Kharagpur and succesfully organised india's largest Agricultural and food engineering Fest Prakriti 2021,IIT Kharagpur/li>
+                    <li>I was a core team member inAgricultural and food engineering society,IIT Kharagpur 2020 for 1 year </li>
+                    <li>Member of Inter Hall dramatics from Mother theresa Hall of residence ,IIT Kharagpur </li>
+                    <li>Mess Secretary in Mother theresa Hall of residence ,IIT Kharagpur,2019</li>
+                    <li>I was selected for Sangram an Annual Sports Competition conducted by IIT roorkee</li>
+                    <li>Secured State third rank in Gtse Competition in 2014</li>
+                    
+                </ol>
+            </div>
+        </div>
+
+
+        </div>
+
+    </section>
+    <footer class="foo" id="7">
+        <div class="contact">
+            <h1>Contact</h1>
+            <ul>
+            <li><a href="https://www.facebook.com/rima.jana.7399/" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.linkedin.com/in/rima-jana-5921a7191/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="mailto:rimajana.17@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a></li>
+            </ul>
+        
+    
+            <div class="quote">
+                <h2>Inspired By many</h2>
+                <h2>Coded By Rima Jana</h2>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <section class="intro">This is my background info and all</section>
+    <section class="Expertise">This contains my expertise</section>
+    <section class="Education">About my school and college</section>
+    <section class="ExtraCurriculum">This contains extra stuff</section> -->
+</body>
+
+</html>

@@ -1,0 +1,462 @@
+
+body{
+    box-sizing: border-box;
+    background-color:black;
+    /* border: 1px solid white; */
+    text-rendering: auto;
+    color: beige;
+    /* margin:20px 18px; */
+    padding:2px 3px;
+    /* font-size: 20px; */
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    align-self: auto;
+    text-decoration: none;
+    margin: auto;
+    margin-bottom: 0px;
+    /* overflow: hidden; */
+    overflow-x:hidden;
+    /* font-family: 'Eczar', serif; */
+    
+    
+}
+@keyframes transitionIN {
+    from{
+        opacity:0;
+        transform:rotateX(-10deg);
+    }
+    to{
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    
+}
+.full-screen-preview {
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    /* overflow: hidden; */
+}
+a{
+    text-decoration: none;
+    color: rgb(12, 188, 194);
+}
+h1 {
+  color: rgb(218, 103, 10);
+  color: rgb(12, 188, 194);
+  text-shadow: -2px 1px 3px #b2cc20;
+  font-weight: light;
+  font-family: 'Eczar';
+  /* text-shadow: 2px 1px 2px #d2c8d4; */
+}
+/* h1{
+    color:yellowgreen;
+    text-shadow: 1px 2px rgb(208, 226, 43);
+    font-weight:bolder;
+} */
+#NAME,#Year,#Role{
+    margin:20px 18px;
+}
+div{
+    margin:20px 18px;
+}
+.Header{
+    /* border:3px solid wheat; */
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    margin-top: 40px;
+    /* background: rgba(12, 11, 11, 0.973); */
+    animation: transitionIN 4s; 
+    transition: width 2s;
+}
+
+.Leftheaderbox{
+    /* box-sizing: content-box; */
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:rgb(12, 12, 12);
+    margin:20px;
+
+    /* border:3px solid blanchedalmond; */
+    margin-top: 55px;
+    vertical-align: middle;
+    padding: 50px 20px;
+    height:74%;
+    float:left;
+    width:45%;
+    /* margin: auto; */
+
+}
+.aboutmeleft{
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color:rgb(12, 12, 12);
+    margin:20px;
+
+    /* border:3px solid blanchedalmond; */
+    margin-top: 55px;
+    vertical-align: middle;
+    padding: 50px 20px;
+    height:24%;
+    float:left;
+    width:45%;
+
+}
+.aboutmeright{
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float:right;
+    margin-top: 55px;
+    width: 46%;
+    height:40%;
+    /* border:3px solid yellow; */
+    background-color: rgb(1, 14, 14);
+    text-align: center;
+}
+.IM{
+    /* border:3px dotted; */
+    margin-top: 100px;
+    text-align: center;
+    
+}
+#am{
+    margin-top: 0px;
+    width: 500px;
+    height: 400px;
+}
+.Rightheaderbox{
+    /* box-sizing: content-box; */
+    box-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float:right;
+    margin-top: 55px;
+    width: 46%;
+    height:91%;
+    /* border:3px solid yellow; */
+    background-color: rgb(1, 14, 14);
+    text-align: center;
+}
+.Leftheaderbox:hover,.Rightheaderbox:hover{
+    box-shadow: 0 4px 8px 0 #f7e712, 0 6px 20px 0 rgba(240, 12, 12, 0.19);
+    /* transform: translate(2px,2px); */
+}
+.content{
+    border: 3px dotted white;
+    vertical-align: middle;
+    margin-top: 150px;
+}
+
+
+img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgb(37, 26, 26), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border:5px solid darkgoldenrod; */
+    margin: 30px 50px;
+    
+    text-align: center;
+
+}
+.socials ul{
+    display: inline-flex;
+    justify-content: center;
+    width: 0%;
+    transform:translate(-50%,-50%);
+    
+}
+.socials ul li{
+    color:skyblue;
+    padding: 12px 16px;
+    margin:10px;
+   
+    margin-top: 10px;
+    list-style: none;
+    
+
+}
+
+ul li a{
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+ul li a:hover{
+    color:thistle;
+    /* border-radius: 50%; */
+    color: rgb(215, 236, 20);
+}
+
+
+
+/* img{
+    border-radius: 50%;
+    margin :100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    vertical-align: middle;
+    
+} */
+
+
+
+/* a:visited{
+    background-color: blueviolet;
+} */
+/* h1{
+    color: purple;
+    text-align: center;
+}
+
+ul li:hover a{
+    color:rgb(70, 16, 16); */
+/* } */
+
+
+/* .o-grid__col-sm-6{
+    border:2px dotted;
+}
+h3, .c-number {
+    color: darkgoldenrod;
+    font-size: 1.2rem;
+    line-height: 1.45;
+    text-transform: uppercase;
+}
+h3, .c-number{
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+
+}
+
+h3{
+    color: rgba(165, 161, 161, 0.986);
+}
+.t-primary-bg, .t-primary-color-line {
+    background: #e0a80d;
+}
+.c-progress-bar__filler {
+    height: 100%;
+} */
+
+details > summary {
+    padding: 14px;
+    margin: 14px 4px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+   list-style: none;
+
+}
+
+details > p {
+  padding: 4px;
+  margin: 2px 2px;
+  box-shadow: 1px 1px 2px #e0b907;
+}
+.Background li{
+    padding: 12px 16px;
+    margin:10px;
+   
+    margin-top: 10px;
+    list-style: none;
+}
+
+.Background li:hover{
+    background-color: rgb(218, 131, 2);
+    color: black;
+}
+.College,.inter,.ssc{
+    border:2px dotted;
+    display: block;
+    margin:10px;
+}
+
+.o-grid__col-md-5{
+    /* border:1px dotted; */
+    display: inline-block;
+    margin:14px;
+    width: 60%;
+}
+.percentage{
+    float:right;
+    /* border:2px solid; */
+    width: 20%;
+}
+.c-work__timeframe{
+    font-size: 12px;
+    margin:10px 0px;
+    padding:0px 0px;
+}
+.c-work__heading,.c-work__title,.c-work__location{
+    margin:10px;
+}
+.navbar {
+    position:fixed;
+    width: 100%;
+    background-color:black;
+    
+    margin: -30px 0px;
+    padding: 12px 10px;
+    padding-bottom: 3px;
+}
+
+.navbar li{
+    
+    display: inline-block;
+    font-size: 20px;
+    padding:10px 15px;
+
+}
+.navbar li a{
+    color:darkgoldenrod;
+    text-decoration: none; 
+
+    margin: 6px;  /*it removes the underline */
+}
+.navbar li a:hover {
+    color:rgb(222, 236, 24);
+    text-shadow: 1px 0px white;
+    /* line-shadow: 0 4px 8px 0 white, 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    background-color:none;
+
+    /* background-blend-mode: lighten; */
+}
+.mid{
+    margin-top: 0px;
+}
+.College:hover,.ssc:hover,.inter:hover{
+    background-color: rgb(218, 131, 2);
+    color: black;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  /* color: black; */
+  color: blanchedalmond;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.portfolio,.Quizapp,.cca,.ms{
+    margin: 0px 0px;
+    padding: 2px 2px;
+    border: 2px dotted;
+    color:wheat;
+}
+#drop{
+    /* background-color: lightseagreen; */
+    /* border: 2px dotted lightseagreen; */
+    background-color: #075486;
+    background-color: rgb(12, 188, 194);
+    border-radius: 10px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+.drop {
+  position: relative;
+  display: inline-block;
+}
+#drop:hover{
+    color:black;
+}
+.por li{
+    list-style: circle;
+    color: rgb(214, 212, 219);
+    text-align: left;
+}
+.por li:hover{
+    background-color:initial;
+    color:rgb(110, 245, 245);
+}
+/* .College:hover,.inter:hover,.ssc:hover{
+    
+    background-color:rgb(4, 88, 88);
+} */
+.foo{
+    border:3px solid rgba(1, 18, 22, 0.815);;
+    margin-top: 10px;
+    /* align-content: center; */
+    text-align: center;
+    /* padding-left: 40%; */
+    /* background-color: rgb(2, 34, 56); */
+    background-color:rgba(1, 18, 22, 0.815);
+    /* background-color:rgb(110, 245, 245); */
+    padding-top: 15px;
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.contact ul{
+    display: inline-flex;
+    justify-content: center;
+    width: 0%;
+    transform:translate(-50%,-50%);
+    margin-top: -10px;
+    margin-bottom: 20px;
+    /* font-size: 100px; */
+}
+.contact ul li{
+    color:skyblue;
+    padding: 12px 30px;
+
+    margin:10px;
+   /* font-size: 100px; */
+    /* width: 100px; */
+    margin-bottom: -20px;
+    list-style: none;
+    
+
+}
+/* .Expertise{
+    background-image: linear-gradient(rgba(247, 242, 242, 0.5),rgba(241, 239, 239, 0.5),rgba(218, 211, 211, 0.5),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrQP3F3AHVV2Y_T-ZTkep-MBQODuCytV6vZg&usqp=CAU.png));} */
+ h2{
+    font: 'Sacremento';
+
+} 
+/* #bg{
+    /* text-align: left; */
+/* } */
+
+.page2{
+    font-size: 17px;
+    text-align: left;
+}
+.quote{
+    font-size: 12px;
+}
